@@ -33,8 +33,8 @@
                 <% for (var i=0; i < gamelist.length; i++){%>
 
                     <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
-                        <a class="block relative h-50 rounded overflow-hidden">
-                            <img alt="ecommerce" class="object-cover object-center w-full h-full block"
+                        <a class="block relative h-50 rounded overflow-hidden" href="/<%= gamelist[i].gamename %>">
+                            <img alt=" ecommerce" class="object-cover object-center w-full h-full block"
                                 src=<%=gamelist[i].src %>>
                         </a>
                         <div class="mt-4">
@@ -52,6 +52,7 @@
                     <% } %>
             </div>
         </div>
+
     </section>
 
 
